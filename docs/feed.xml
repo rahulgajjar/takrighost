@@ -4,11 +4,68 @@
   <subtitle>Thoughts, stories and ideas.</subtitle>
   <link href="http://localhost:8080/feed.xml" rel="self"/>
   <link href="http://localhost:8080"/>
-  <updated>2021-05-18T19:53:54.000+00:00</updated>
+  <updated>2021-05-18T20:08:59.000+00:00</updated>
   <id>http://localhost:8080/</id>
   <author>
     <name>Rahul Gajjar</name>
   </author>
+  <entry>
+    <title>Translate</title>
+    <link href="http://localhost:8080/translate/"/>
+    <updated>2021-05-18T20:08:59.000+00:00</updated>
+    <id>http://localhost:8080/translate/</id>
+    <content type="html">&lt;p&gt;Instructions: Type or copy-paste Devanagari text in the first text box and click on transliterate button to transliterate the text in Takri&lt;/p&gt;&lt;!--kg-card-begin: html--&gt;&lt;style&gt;
+
+    @font-face {
+    font-family: ITF Takri;
+    src: url(&quot;https://takri.in/wp-includes/fonts/ITFTakri-Regular.otf&quot;) format(&quot;opentype&quot;);
+    }
+    
+    @font-face {
+    font-family: ITF Devanagari;
+    src: url(&quot;https://d9qdd6ey7o7ay.cloudfront.net/assets/webfonts/SERVER/Project1/ITFDevanagari-Book-d9a11ef118da174bbc86cd049a0a3298.woff2&quot;) format(&quot;opentype&quot;);
+    }
+    
+    
+    
+    #input {
+        font-family: &quot;ITF Devanagari&quot;, sans-serif;
+        font-size: 18px;
+    }
+    
+    #output {
+        font-family: &quot;ITF Takri&quot;, sans-serif;
+        font-size: 18px;
+    }
+
+&lt;/style&gt;
+
+&lt;label for=&quot;input&quot;&gt;&lt;/label&gt;&lt;textarea id=&quot;input&quot; rows=&quot;5&quot; cols=&quot;50&quot;&gt;&lt;/textarea&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;label for=&quot;output&quot;&gt;&lt;/label&gt;&lt;textarea id=&quot;output&quot; rows=&quot;5&quot; cols=&quot;50&quot;&gt;&lt;/textarea&gt;
+&lt;br /&gt;&lt;br /&gt;
+
+
+
+&lt;p&gt;&lt;button id=&quot;translate-button&quot; type=&quot;button&quot;&gt;Transliterate&lt;/button&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+    $(document).ready(function() {
+    $(&quot;#translate-button&quot;).click(function () {
+        var comment = $.trim($(&quot;#input&quot;).val())
+        $.get(
+            &quot;https://aksharamukha.appspot.com/api/public?&quot;,
+            {source: &#39;Devanagari&#39;, target: &#39;Takri&#39;, text: comment},
+            function (data) {
+                $(&quot;#output&quot;).val(data);
+            });
+    });
+});
+&lt;/script&gt;
+
+&lt;!--kg-card-end: html--&gt;</content>
+  </entry>
   <entry>
     <title>About Takri</title>
     <link href="http://localhost:8080/about-takri/"/>
