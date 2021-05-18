@@ -199,7 +199,7 @@ module.exports = function(config) {
   return {
     dir: {
       input: "src",
-      output: "dist"
+      output: "docs"
     },
 
     // Files read by Eleventy, add as needed

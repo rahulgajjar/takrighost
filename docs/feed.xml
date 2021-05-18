@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Takri</title>
+  <subtitle>Thoughts, stories and ideas.</subtitle>
+  <link href="http://localhost:8080/feed.xml" rel="self"/>
+  <link href="http://localhost:8080"/>
+  <updated>2021-05-18T16:15:04.000+00:00</updated>
+  <id>http://localhost:8080/</id>
+  <author>
+    <name>Rahul Gajjar</name>
+  </author>
+  <entry>
+    <title>This is the first story</title>
+    <link href="http://localhost:8080/this-is-the-first-story/"/>
+    <updated>2021-05-18T16:15:04.000+00:00</updated>
+    <id>http://localhost:8080/this-is-the-first-story/</id>
+    <content type="html">&lt;p&gt;Hey there!&lt;/p&gt;</content>
+  </entry>
+</feed>
