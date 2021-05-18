@@ -68,3 +68,9 @@ typings/
 yarn-error.log
 .netlify/
 dist
+ghost/versions/*
+ghost/.ghost-cli
+ghost/.ghostpid
+ghost/config.development.json
+ghost/current
+ghost/content/themes/casper
