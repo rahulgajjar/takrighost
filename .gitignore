@@ -74,3 +74,4 @@ ghost/.ghostpid
 ghost/config.development.json
 ghost/current
 ghost/content/themes/casper
+static/*
