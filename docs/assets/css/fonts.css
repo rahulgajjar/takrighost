@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: 'ITF Takri';
-  src: url('/assets/fonts/ITFTakri-Light') format('woff2'),
+  src: url('/assets/fonts/ITFTakri-Light.woff2') format('woff2'),
        url('/assets/fonts/ITFTakri-Light.woff') format('woff'),
        url('/assets/fonts/ITFTakri-Light.ttf') format('truetype');
        font-weight: 300;
@@ -30,7 +30,7 @@
 
 @font-face {
   font-family: 'ITF Takri';
-  src: url('/assets/fonts/ITFTakri-Regular') format('woff2'),
+  src: url('/assets/fonts/ITFTakri-Regular.woff2') format('woff2'),
        url('/assets/fonts/ITFTakri-Regular.woff') format('woff'),
        url('/assets/fonts/ITFTakri-Regular.ttf') format('truetype');
        font-weight: 400;
@@ -40,7 +40,7 @@
 
 @font-face {
   font-family: 'ITF Takri';
-  src: url('/assets/fonts/ITFTakri-Medium') format('woff2'),
+  src: url('/assets/fonts/ITFTakri-Medium.woff2') format('woff2'),
        url('/assets/fonts/ITFTakri-Medium.woff') format('woff'),
        url('/assets/fonts/ITFTakri-Medium.ttf') format('truetype');
        font-weight: 500;
@@ -50,7 +50,7 @@
 
 @font-face {
   font-family: 'ITF Takri';
-  src: url('/assets/fonts/ITFTakri-Semibold') format('woff2'),
+  src: url('/assets/fonts/ITFTakri-Semibold.woff2') format('woff2'),
        url('/assets/fonts/ITFTakri-Semibold.woff') format('woff'),
        url('/assets/fonts/ITFTakri-Semibold.ttf') format('truetype');
        font-weight: 600;
@@ -60,7 +60,7 @@
 
 @font-face {
   font-family: 'ITF Takri';
-  src: url('/assets/fonts/ITFTakri-Bold') format('woff2'),
+  src: url('/assets/fonts/ITFTakri-Bold.woff2') format('woff2'),
        url('/assets/fonts/ITFTakri-Bold.woff') format('woff'),
        url('/assets/fonts/ITFTakri-Bold.ttf') format('truetype');
        font-weight: 700;
