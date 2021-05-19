@@ -12,6 +12,11 @@
   </url>
   
   <url>
+    <loc>http://localhost:8080/translate/</loc>
+    <lastmod>1970-01-01</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:8080/_headers</loc>
     <lastmod>1970-01-01</lastmod>
   </url>
@@ -27,11 +32,6 @@
   </url>
   
   <url>
-    <loc>http://localhost:8080/translate/</loc>
-    <lastmod>1970-01-01</lastmod>
-  </url>
-  
-  <url>
     <loc>http://localhost:8080/about-takri/</loc>
     <lastmod>1970-01-01</lastmod>
   </url>
@@ -43,6 +43,26 @@
   
   <url>
     <loc>http://localhost:8080/robots.txt</loc>
+    <lastmod>1970-01-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/tag/callibraphy/</loc>
+    <lastmod>1970-01-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/tag/history/</loc>
+    <lastmod>1970-01-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/tag/manuscripts/</loc>
+    <lastmod>1970-01-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/tag/typeface-design/</loc>
     <lastmod>1970-01-01</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Switzer';
+  src: url('/assets/fonts/Switzer-Variable.woff2') format('woff2'),
+       url('/assets/fonts/Switzer-Variable.woff') format('woff'),
+       url('/assets/fonts/Switzer-Variable.ttf') format('truetype');
+       font-weight: 100 900;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('/assets/fonts/Switzer-VariableItalic.woff2') format('woff2'),
+       url('/assets/fonts/Switzer-VariableItalic.woff') format('woff'),
+       url('/assets/fonts/Switzer-VariableItalic.ttf') format('truetype');
+       font-weight: 100 900;
+       font-display: swap;
+       font-style: italic;
+}
+
+@font-face {
+  font-family: 'ITF Takri';
+  src: url('/assets/fonts/ITFTakri-Light') format('woff2'),
+       url('/assets/fonts/ITFTakri-Light.woff') format('woff'),
+       url('/assets/fonts/ITFTakri-Light.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'ITF Takri';
+  src: url('/assets/fonts/ITFTakri-Regular') format('woff2'),
+       url('/assets/fonts/ITFTakri-Regular.woff') format('woff'),
+       url('/assets/fonts/ITFTakri-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'ITF Takri';
+  src: url('/assets/fonts/ITFTakri-Medium') format('woff2'),
+       url('/assets/fonts/ITFTakri-Medium.woff') format('woff'),
+       url('/assets/fonts/ITFTakri-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'ITF Takri';
+  src: url('/assets/fonts/ITFTakri-Semibold') format('woff2'),
+       url('/assets/fonts/ITFTakri-Semibold.woff') format('woff'),
+       url('/assets/fonts/ITFTakri-Semibold.ttf') format('truetype');
+       font-weight: 600;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'ITF Takri';
+  src: url('/assets/fonts/ITFTakri-Bold') format('woff2'),
+       url('/assets/fonts/ITFTakri-Bold.woff') format('woff'),
+       url('/assets/fonts/ITFTakri-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
