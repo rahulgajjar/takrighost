@@ -1,2 +1,4 @@
 User-agent: *
-Allow: /
+Sitemap: https://takri.in/sitemap.xml
+Disallow: /ghost/
+Disallow: /p/
